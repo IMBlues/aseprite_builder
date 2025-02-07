@@ -3,7 +3,7 @@ name: Build and release Aseprite
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - 'BuildLog.md'
 env:
